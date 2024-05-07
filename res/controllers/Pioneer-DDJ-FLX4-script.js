@@ -44,6 +44,9 @@
 //  Not implemented yet (but might be in the future):
 //      * Smart CFX
 //      * Smart fader
+//
+// The list of MIDI messages can be found here: https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-flx4/ddj-flx4_midi_message_list_e1.pdf
+//
 
 var PioneerDDJFLX4 = {};
 
