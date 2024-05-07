@@ -38,7 +38,7 @@
             <control>
                 <description>BROWSE - press - Move cursor between track list and tree view</description>
                 <group>[Library]</group>
-                <key>MoveFocusForward</key> <!-- missing function to open Folder -->
+                <key>MoveFocusForward</key>
                 <status>0x96</status>
                 <midino>0x41</midino>
                 <options>
@@ -46,11 +46,21 @@
                 </options>
             </control>
             <control>
-              <description>BROWSE +SHIFT - press - Move cursor between track list and tree view</description>
+              <description>BROWSE + SHIFT - press - Move cursor between track list and tree view</description>
                 <group>[Library]</group>
-                <key>MoveFocusBackward</key> <!-- missing function to close Folder -->
+                <key>MoveFocusBackward</key>
                 <status>0x96</status>
                 <midino>0x42</midino>
+                <options>
+                    <Normal/>
+                </options>
+            </control>
+            <control>
+                <description>LOAD (DECK1) + Shift - press - Move right / Open folder</description>
+                <group>[Library]</group>
+                <key>MoveRight</key>
+                <status>0x96</status>
+                <midino>0x68</midino>
                 <options>
                     <Normal/>
                 </options>
